@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Compass View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CompassViewController" customModule="FindMyRing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yew-uh-qEy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background-1" translatesAutoresizingMaskIntoConstraints="NO" id="o4g-pm-M9T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ye4-eG-tdZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HIe-du-ESd">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="klr-c9-F6R">
+                                <rect key="frame" x="80" y="323" width="254" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="9Ea-Hn-Imp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find My Ring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds6-0p-aTt">
+                                <rect key="frame" x="10" y="74" width="394" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppd-sb-aLd">
+                                <rect key="frame" x="25" y="837.5" width="364" height="16.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" alpha="0.75" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VuF-U4-EPi">
+                                <rect key="frame" x="50" y="823.5" width="314" height="4"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="Kim-dR-vsW"/>
+                                </constraints>
+                                <color key="progressTintColor" red="0.096285652504109587" green="0.95478213977671222" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" white="0.62813926940639253" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3l0-YJ-Xzw" firstAttribute="trailing" secondItem="ppd-sb-aLd" secondAttribute="trailing" constant="25" id="1Ed-wg-WVX"/>
+                            <constraint firstItem="klr-c9-F6R" firstAttribute="centerY" secondItem="Yew-uh-qEy" secondAttribute="centerY" id="5KI-C8-Gz3"/>
+                            <constraint firstItem="ye4-eG-tdZ" firstAttribute="top" secondItem="Yew-uh-qEy" secondAttribute="top" id="5Tc-Ul-S51"/>
+                            <constraint firstItem="ppd-sb-aLd" firstAttribute="leading" secondItem="3l0-YJ-Xzw" secondAttribute="leading" constant="25" id="7bs-RN-nQC"/>
+                            <constraint firstItem="3l0-YJ-Xzw" firstAttribute="trailing" secondItem="ds6-0p-aTt" secondAttribute="trailing" constant="10" id="9pI-9T-YYl"/>
+                            <constraint firstItem="o4g-pm-M9T" firstAttribute="trailing" secondItem="3l0-YJ-Xzw" secondAttribute="trailing" id="A5H-4z-Z8D"/>
+                            <constraint firstItem="3l0-YJ-Xzw" firstAttribute="trailing" secondItem="klr-c9-F6R" secondAttribute="trailing" constant="80" id="FEE-P7-ZgS"/>
+                            <constraint firstItem="o4g-pm-M9T" firstAttribute="top" secondItem="Yew-uh-qEy" secondAttribute="top" id="G9T-mt-X6z"/>
+                            <constraint firstItem="ppd-sb-aLd" firstAttribute="top" secondItem="VuF-U4-EPi" secondAttribute="bottom" constant="10" id="HFE-lN-JAB"/>
+                            <constraint firstItem="ds6-0p-aTt" firstAttribute="top" secondItem="3l0-YJ-Xzw" secondAttribute="top" constant="30" id="LUw-KI-s6x"/>
+                            <constraint firstItem="VuF-U4-EPi" firstAttribute="leading" secondItem="Yew-uh-qEy" secondAttribute="leadingMargin" constant="30" id="QNq-xI-voR"/>
+                            <constraint firstItem="o4g-pm-M9T" firstAttribute="leading" secondItem="3l0-YJ-Xzw" secondAttribute="leading" id="ZQb-CT-D7r"/>
+                            <constraint firstItem="3l0-YJ-Xzw" firstAttribute="bottom" secondItem="ppd-sb-aLd" secondAttribute="bottom" constant="8" id="ZgH-U9-FHR"/>
+                            <constraint firstItem="ds6-0p-aTt" firstAttribute="leading" secondItem="3l0-YJ-Xzw" secondAttribute="leading" constant="10" id="awe-KD-lSq"/>
+                            <constraint firstItem="klr-c9-F6R" firstAttribute="leading" secondItem="3l0-YJ-Xzw" secondAttribute="leading" constant="80" id="cFT-lh-QxB"/>
+                            <constraint firstItem="ye4-eG-tdZ" firstAttribute="trailing" secondItem="3l0-YJ-Xzw" secondAttribute="trailing" id="eRt-mw-kpV"/>
+                            <constraint firstItem="ye4-eG-tdZ" firstAttribute="leading" secondItem="3l0-YJ-Xzw" secondAttribute="leading" id="epu-39-h3U"/>
+                            <constraint firstAttribute="bottom" secondItem="o4g-pm-M9T" secondAttribute="bottom" id="jVp-br-PAF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VuF-U4-EPi" secondAttribute="trailing" constant="30" id="l2c-uF-GGg"/>
+                            <constraint firstAttribute="bottom" secondItem="ye4-eG-tdZ" secondAttribute="bottom" id="yJO-AC-NX1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3l0-YJ-Xzw"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="o4g-pm-M9T" id="MaZ-2K-tF0"/>
+                        <outlet property="compassImageView" destination="klr-c9-F6R" id="Gy0-gn-Gwo"/>
+                        <outlet property="progressLabel" destination="ppd-sb-aLd" id="aeN-al-Spn"/>
+                        <outlet property="progressView" destination="VuF-U4-EPi" id="5D8-AT-eZ3"/>
+                        <outlet property="view" destination="Yew-uh-qEy" id="tRI-DW-UJH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background-1" width="1890" height="1360"/>
+        <image name="arrow" width="921" height="893"/>
+    </resources>
+</document>

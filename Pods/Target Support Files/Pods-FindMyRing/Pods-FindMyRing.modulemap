@@ -1,0 +1,6 @@
+module Pods_FindMyRing {
+  umbrella header "Pods-FindMyRing-umbrella.h"
+
+  export *
+  module * { export * }
+}

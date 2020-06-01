@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91AC05BBC907003C3CE80227 /* libPods-FindMyRing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579CDE8790967A20F2877C6 /* libPods-FindMyRing.a */; };
+		ABBD5D852446C3760050CD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD5D842446C3760050CD3E /* AppDelegate.swift */; };
+		ABBD5D872446C3760050CD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD5D862446C3760050CD3E /* SceneDelegate.swift */; };
+		ABBD5D8C2446C3760050CD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBD5D8A2446C3760050CD3E /* Main.storyboard */; };
+		ABBD5D8E2446C3770050CD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBD5D8D2446C3770050CD3E /* Assets.xcassets */; };
+		ABBD5D912446C3770050CD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBD5D8F2446C3770050CD3E /* LaunchScreen.storyboard */; };
+		ABBD5D9C2446C3920050CD3E /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD5D982446C3920050CD3E /* LocationDelegate.swift */; };
+		ABBD5D9D2446C3920050CD3E /* UserDefauts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD5D992446C3920050CD3E /* UserDefauts+Extensions.swift */; };
+		ABBD5D9E2446C3920050CD3E /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD5D9A2446C3920050CD3E /* CompassViewController.swift */; };
+		ABBD5D9F2446C3920050CD3E /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD5D9B2446C3920050CD3E /* CLLocation+Extension.swift */; };
+		ABC39A332448309E00C1E046 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABC39A322448309E00C1E046 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6579CDE8790967A20F2877C6 /* libPods-FindMyRing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FindMyRing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBD5D812446C3760050CD3E /* FindMyRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBD5D842446C3760050CD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABBD5D862446C3760050CD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABBD5D8B2446C3760050CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABBD5D8D2446C3770050CD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABBD5D902446C3770050CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABBD5D922446C3770050CD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBD5D982446C3920050CD3E /* LocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		ABBD5D992446C3920050CD3E /* UserDefauts+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefauts+Extensions.swift"; sourceTree = "<group>"; };
+		ABBD5D9A2446C3920050CD3E /* CompassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		ABBD5D9B2446C3920050CD3E /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		ABC39A322448309E00C1E046 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8C55CB18C7E3BD91AF77D25 /* Pods-FindMyRing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyRing.debug.xcconfig"; path = "Target Support Files/Pods-FindMyRing/Pods-FindMyRing.debug.xcconfig"; sourceTree = "<group>"; };
+		EA93BFA451D9203BECF924AC /* Pods-FindMyRing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyRing.release.xcconfig"; path = "Target Support Files/Pods-FindMyRing/Pods-FindMyRing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBD5D7E2446C3760050CD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AC05BBC907003C3CE80227 /* libPods-FindMyRing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55386C57C591BB9CE5F64EAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6579CDE8790967A20F2877C6 /* libPods-FindMyRing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E19AC96AECD6BAF484446F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C55CB18C7E3BD91AF77D25 /* Pods-FindMyRing.debug.xcconfig */,
+				EA93BFA451D9203BECF924AC /* Pods-FindMyRing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABBD5D782446C3760050CD3E = {
+			isa = PBXGroup;
+			children = (
+				ABBD5D832446C3760050CD3E /* FindMyRing */,
+				ABBD5D822446C3760050CD3E /* Products */,
+				8E19AC96AECD6BAF484446F3 /* Pods */,
+				55386C57C591BB9CE5F64EAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBD5D822446C3760050CD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD5D812446C3760050CD3E /* FindMyRing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBD5D832446C3760050CD3E /* FindMyRing */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD5D9B2446C3920050CD3E /* CLLocation+Extension.swift */,
+				ABBD5D9A2446C3920050CD3E /* CompassViewController.swift */,
+				ABBD5D982446C3920050CD3E /* LocationDelegate.swift */,
+				ABBD5D992446C3920050CD3E /* UserDefauts+Extensions.swift */,
+				ABBD5D842446C3760050CD3E /* AppDelegate.swift */,
+				ABBD5D862446C3760050CD3E /* SceneDelegate.swift */,
+				ABBD5D8A2446C3760050CD3E /* Main.storyboard */,
+				ABBD5D8D2446C3770050CD3E /* Assets.xcassets */,
+				ABBD5D8F2446C3770050CD3E /* LaunchScreen.storyboard */,
+				ABBD5D922446C3770050CD3E /* Info.plist */,
+				ABC39A322448309E00C1E046 /* GoogleService-Info.plist */,
+			);
+			path = FindMyRing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBD5D802446C3760050CD3E /* FindMyRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBD5D952446C3770050CD3E /* Build configuration list for PBXNativeTarget "FindMyRing" */;
+			buildPhases = (
+				2E1383ACB57DF4CBDA275BAF /* [CP] Check Pods Manifest.lock */,
+				ABBD5D7D2446C3760050CD3E /* Sources */,
+				ABBD5D7E2446C3760050CD3E /* Frameworks */,
+				ABBD5D7F2446C3760050CD3E /* Resources */,
+				C1740B8326B786B077F858B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyRing;
+			productName = FindMyRing;
+			productReference = ABBD5D812446C3760050CD3E /* FindMyRing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBD5D792446C3760050CD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Michael Peterson";
+				TargetAttributes = {
+					ABBD5D802446C3760050CD3E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ABBD5D7C2446C3760050CD3E /* Build configuration list for PBXProject "FindMyRing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBD5D782446C3760050CD3E;
+			productRefGroup = ABBD5D822446C3760050CD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBD5D802446C3760050CD3E /* FindMyRing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBD5D7F2446C3760050CD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBD5D912446C3770050CD3E /* LaunchScreen.storyboard in Resources */,
+				ABC39A332448309E00C1E046 /* GoogleService-Info.plist in Resources */,
+				ABBD5D8E2446C3770050CD3E /* Assets.xcassets in Resources */,
+				ABBD5D8C2446C3760050CD3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E1383ACB57DF4CBDA275BAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyRing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1740B8326B786B077F858B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyRing/Pods-FindMyRing-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyRing/Pods-FindMyRing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyRing/Pods-FindMyRing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBD5D7D2446C3760050CD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBD5D9C2446C3920050CD3E /* LocationDelegate.swift in Sources */,
+				ABBD5D9D2446C3920050CD3E /* UserDefauts+Extensions.swift in Sources */,
+				ABBD5D9E2446C3920050CD3E /* CompassViewController.swift in Sources */,
+				ABBD5D9F2446C3920050CD3E /* CLLocation+Extension.swift in Sources */,
+				ABBD5D852446C3760050CD3E /* AppDelegate.swift in Sources */,
+				ABBD5D872446C3760050CD3E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABBD5D8A2446C3760050CD3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBD5D8B2446C3760050CD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABBD5D8F2446C3770050CD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABBD5D902446C3770050CD3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABBD5D932446C3770050CD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABBD5D942446C3770050CD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABBD5D962446C3770050CD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C55CB18C7E3BD91AF77D25 /* Pods-FindMyRing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J2QZM854R;
+				INFOPLIST_FILE = FindMyRing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mpetes.FindMyRing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABBD5D972446C3770050CD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA93BFA451D9203BECF924AC /* Pods-FindMyRing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J2QZM854R;
+				INFOPLIST_FILE = FindMyRing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mpetes.FindMyRing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBD5D7C2446C3760050CD3E /* Build configuration list for PBXProject "FindMyRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBD5D932446C3770050CD3E /* Debug */,
+				ABBD5D942446C3770050CD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBD5D952446C3770050CD3E /* Build configuration list for PBXNativeTarget "FindMyRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBD5D962446C3770050CD3E /* Debug */,
+				ABBD5D972446C3770050CD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBD5D792446C3760050CD3E /* Project object */;
+}
